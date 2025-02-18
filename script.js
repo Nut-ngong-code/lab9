@@ -7,7 +7,7 @@ fetch("https://jsonplaceholder.typicode.com/users")
   .then((data) => {
     data.forEach((post) => {
       console.log(post);
-      const postElement = document.createElement("p");
+      const postElement = document.createElement("div");
       // postElement.textContent = `${post.name} (${post.email})`;
       postElement.innerHTML = `
             <a href = "user-detail.html?id=${post.id}" class="text-none-underlined">

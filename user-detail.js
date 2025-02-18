@@ -27,7 +27,10 @@ if (userId) {
                 <h4 class="mb-0">บริษัท</h4>
                 <p class="mt-0 mb-0">${data.company.name}</p>
                 <p class="mt-0">${data.company.catchPhrase}</p>
-        </div>`;
+        </div>
+        <a href="user-posts.html?userId=${data.id}" class="text-none-underlined">
+            <button id="view-posts" class="view-posts-btn">ดูโพสต์ทั้งหมด</button>
+        </a>`;
     })
     .catch((error) => {
       console.error("Error fetching user data:", error);
