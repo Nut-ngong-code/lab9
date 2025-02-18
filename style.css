@@ -1,0 +1,19 @@
+.container{
+    text-align: center;
+    height: 100vh;
+}
+
+.user-list{
+    text-align: left;
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: rgb(111, 111, 111);
+}
+
+.user-list h3{
+    color: rgb(32, 64, 140);
+    margin-bottom: 0;
+}
