@@ -11,7 +11,7 @@ if (userId) {
       // แสงงข้อมูล userDetail
       // console.log(data);
       userDetail.innerHTML = `
-        <div class="user-list">
+        <div class="user-list user-detail">
                 <h3>${data.name}</h3>
                 <h4 class="mb-0">อีกเมล</h4>
                 <p class="mt-0">${data.email}</p>

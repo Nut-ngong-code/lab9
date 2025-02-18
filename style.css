@@ -46,6 +46,11 @@
     text-decoration: none;
 }
 
+.user-detail h3{
+    color: black;
+    font-weight: bold;
+}
+
 .mt-0{
     margin-top: 0;
 }
